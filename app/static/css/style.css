@@ -15,8 +15,8 @@ p, li {
 	font-weight:400;
 	font-size:18;
 }
-
-@media (min-width:807px){
+/*807*/
+@media only screen and (min-width:807px){
 .header {
 	background-color:#FBF3AE;
 	opacity:.75;
@@ -151,8 +151,8 @@ hr {
 }
 
 }
-
-@media (max-width:806px) {
+/*806*/
+@media only screen and (max-width:806px) {
 .header {
 	background-color:#FBF3AE;
 	opacity:.75;
