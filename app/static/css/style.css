@@ -67,6 +67,50 @@ a {
 	z-index:3;
 }
 
+.nav-bar {
+	width:100%;
+	height:60px;
+	position:fixed;
+	background-color:white;
+	border-bottom:1px solid #E6E6E6;
+	opacity:.95;
+	z-index:100;
+}
+
+.logo {
+	width:80;
+	height:80;
+	position:absolute;
+	margin-top:-7;
+	left:7%;
+	transition:.3s;
+}
+
+.logo:hover {
+	width:90;
+	height:90;
+	margin-top:-12;
+	margin-left:-5;
+}
+
+.menu {
+	display:none;
+}
+
+.tabs {
+	display:inline-block;
+	color:grey;
+	font-size:13;
+	float:right;
+	transition:.3s;
+	margin-right:5%;
+	margin-top:25;
+}
+
+.tabs:hover {
+	color:#A5E5E4;
+}
+
 #chevron {
 	display:none;
 }
@@ -205,12 +249,71 @@ hr {
 	width: 220px;
 	height: 220px;
 	overflow:hidden;
-	top:20px;
+	top:70px;
 	margin-bottom:40px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
 	z-index:3;
+}
+
+.nav-bar {
+	width:100%;
+	height:60px;
+	position:fixed;
+	background-color:white;
+	border-bottom:1px solid #E6E6E6;
+	opacity:.95;
+	z-index:100;
+}
+
+.logo {
+	width:80;
+	height:80;
+	position:absolute;
+	margin-top:-7;
+	left:45%;
+	transition:.3s;
+}
+
+.logo:hover {
+	width:90;
+	height:90;
+	margin-top:-12;
+	margin-left:-5;
+}
+
+.tabs {
+	/*color:grey;
+	font-size:13;
+	float:right;
+	transition:.3s;
+	margin-right:5%;
+	margin-top:25;
+	display:none;*/
+	position: absolute !important;
+	top:-9999px !important;
+	left:-9999px !important;
+}
+
+.tabs:hover {
+	color:#A5E5E4;
+}
+
+.menu {
+	display:inline-block;
+	width:30;
+	height:30;
+	float:right;
+	margin-top:13;
+	margin-right:7%;
+	transition:.3s;
+}
+
+.menu:hover {
+	width:35;
+	height:35;
+	margin-left:7;
 }
 
 #chevron {
@@ -388,6 +491,36 @@ hr {
 	z-index:100;
 }
 
+/*.logo {
+	width:80;
+	height:80;
+	position:absolute;
+	margin-top:-7;
+	left:7%;
+	transition:.3s;
+}
+
+.logo:hover {
+	width:90;
+	height:90;
+	margin-top:-12;
+	margin-left:-5;
+}*/
+
+.tabs {
+	display:inline-block;
+	color:grey;
+	font-size:13;
+	float:right;
+	transition:.3s;
+	margin-right:5%;
+	margin-top:25;
+}
+
+.tabs:hover {
+	color:#A5E5E4;
+}
+
 .blue-back {
 	background-color:#CEF6F5;
 	position:absolute;
@@ -467,20 +600,6 @@ hr {
 
 .left:hover {
 	opacity:.7;
-}
-
-.tabs {
-	display:inline-block;
-	color:grey;
-	font-size:13;
-	float:right;
-	transition:.3s;
-	margin-right:5%;
-	margin-top:25;
-}
-
-.tabs:hover {
-	color:#A5E5E4;
 }
 
 #education {
