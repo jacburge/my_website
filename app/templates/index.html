@@ -1,11 +1,13 @@
 <html>
 	<head>
 		<title>Jaclyn Burge</title>
+		<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
 		<link href="static/css/style.css" type="text/css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-		<script src="/static/js/jquery.min.js"></script>
-		<script src="/static/js/jqfloat.js"></script>
+		<script type="text/javascript" src="/static/js/jquery-1.10.2.js" charset="utf-8"></script>
+		<script type="text/javascript" src="/static/js/waypoints.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="/static/js/script.js" charset="utf-8"></script>
 	</head>
 
 	<body>
@@ -24,18 +26,17 @@
 			<div class="img-holder">
 				<img src="/static/img/me.jpg">
 			</div>
-			<div style="position:relative;">
 				<div class="header">
 				</div>
 				<div class="header-text">Jaclyn Field Burge
 				</div>
-			</div>
 				<div>
 					<img id="chevron" src="/static/img/chevron.png">
 				</div>
 				<!-- Arrow designed by Lauren Frager from the Noun Project -->
 		</section>
 		<section id="menu">
+			<div id="menu-overlay">
 					<img id="hot-air-balloon" src="/static/img/hot-air-balloon.png">
 					<!-- Hot Air Balloon designed by Ealancheliyan s from the Noun Project -->
 					<div id="directory">
@@ -50,6 +51,7 @@
 							Just for Fun <div class="left-carot"> > </div>
 						</div>
 					</div>
+			</div>
 
 		</section>
 		<section id="contact">
@@ -66,14 +68,6 @@
 				&copy; 2014 Jaclyn Field Burge
 		</div>
 		</section>
-
-
-
-<script>
- $(document).ready(function() {
-	$('.down').jqFloat('play');
-	});
-</script>
 
 
 	</body>
