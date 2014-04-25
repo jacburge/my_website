@@ -6,18 +6,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="/static/js/jquery-1.10.2.js" charset="utf-8"></script>
-		<script type="text/javascript" src="/static/js/waypoints.min.js" charset="utf-8"></script>
+	<!-- 	// <script type="text/javascript" src="/static/js/waypoints.min.js" charset="utf-8"></script> -->
 		<script type="text/javascript" src="/static/js/script.js" charset="utf-8"></script>
 	</head>
 
 	<body>
+		<div id="content">
 		<div class="overlay"></div>
 		<div class="nav-bar">
 				<a href="/"><img class="logo" src="/static/img/jfb_thick.svg"></a>
 				<div class="tabs">JUST FOR FUN</div>
 				<div class="tabs">CREATIVE OUTLETS</div>
 				<a class="tabs" href="/professional">PROFESSIONAL</a>
-				<a href="/"><img class="menu" src="/static/img/menu.svg"></a>	
+				<img id="menu" src="/static/img/menu.svg">
 				<!-- Menu designed by David Vickhoff from the Noun Project	 -->	
 			</div>
 		<section id="main">
@@ -35,7 +36,8 @@
 				</div>
 				<!-- Arrow designed by Lauren Frager from the Noun Project -->
 		</section>
-		<section id="menu">
+	</div>
+		<section id="menu-section">
 			<div id="menu-overlay">
 					<img id="hot-air-balloon" src="/static/img/hot-air-balloon.png">
 					<!-- Hot Air Balloon designed by Ealancheliyan s from the Noun Project -->
@@ -68,7 +70,20 @@
 				&copy; 2014 Jaclyn Field Burge
 		</div>
 		</section>
-
+	<div id="toggle-menu" style="display:none">
+		<div class="sidebar-item"><a class="sidebar-link" href="/professional">Professional</a>
+			<a class="sidebar-item-child" href="/professional">Resume</a>
+			<a class="sidebar-item-child">Projects</a>	
+			<a class="sidebar-item-child">Articles</a>
+		</div>
+		<div class="sidebar-item"><a class="sidebar-link" href="/creative">Creative Outlets</a>
+			<a class="sidebar-item-child">Music</a>
+			<a class="sidebar-item-child">Photography</a>	
+			<a class="sidebar-item-child">Artwork</a>
+		</div>			
+		<div class="sidebar-item"><a class="sidebar-link" href="/fun">Just For Fun</a></div>
+	</div>
 
 	</body>
+
 </html>

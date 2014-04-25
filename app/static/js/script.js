@@ -1,23 +1,9 @@
 $(document).ready(function(){
 
-	// $('.nav-bar').waypoint(function(direction){
-	// 	if (direction == 'down') {
-	// 		$('.nav-bar').css({'position':'fixed', 'top': '0px'});
-	// 	} else {
-	// 		$('.nav-bar').css({'position':'absolute', 'top': 'auto'});
-	// 	}
-	// });
-
-	// 	$(window).scroll(function(){
-	// 	var offset = $(window).scrollTop();
-	// 	if (offset >= 502) {
-	// 		alert('I am working!');
-	// 		$('.nav-bar').css({'position': 'fixed', 'top': '0px'});
-	// 	} else {
-	// 		$('.nav-bar').css({'position': 'absolute', 'top':'auto'});
-	// 	}
-	// });
-
+	$("#menu").click(function(){
+		$('#toggle-menu').slideToggle(400);
+	});
+	
 
 	$("#next-1").click(function(){
 	  $("#education").hide(600);
@@ -48,29 +34,5 @@ $(document).ready(function(){
 	  $("#computer").hide(600);
 	  $("#leadership").show(600);
 	});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });

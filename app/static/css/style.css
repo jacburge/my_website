@@ -96,7 +96,11 @@ a {
 	margin-left:-5;
 }
 
-.menu {
+#menu {
+	display:none;
+}
+
+#sidebar {
 	display:none;
 }
 
@@ -265,7 +269,7 @@ hr {
 	width: 200px;
 	height: 200px;
 	overflow:hidden;
-	top:70px;
+	top:15%;
 	margin-bottom:40px;
 	position:absolute;
 	left:50%;
@@ -297,7 +301,7 @@ hr {
 	width:90;
 	height:90;
 	margin-top:-12;
-	margin-left:-5;
+	margin-right:16;
 }
 
 .tabs {
@@ -310,20 +314,89 @@ hr {
 	color:#A5E5E4;
 }*/
 
-.menu {
+#menu {
 	display:inline-block;
+	cursor:pointer;
 	width:30;
 	height:30;
-	float:right;
-	margin-top:13;
-	margin-right:7%;
+	position:absolute;
+	top:20;
+	right:7%;
 	transition:.3s;
+	z-index:2;
 }
 
-.menu:hover {
+#menu:hover {
 	width:35;
 	height:35;
 	margin-left:7;
+}
+
+/*#sidebar {
+	display:none;
+	position:absolute;
+	top:60;
+	background:ivory;
+	width:200px;
+	height:100%;
+	z-index:-10;
+	transition:ease-in-out 0.5s;
+}*/
+
+
+
+#toggle-menu {
+	position:absolute;
+	top:60;
+	right:0;
+	background:grey;
+	color:white;
+	width:300;
+	height:450;
+	z-index:15;
+	opacity:.9;
+	border-radius:5;
+	padding-top:20;
+	padding-left:20;
+}
+
+.sidebar-item{
+	padding:20px 20px;
+	
+	border-bottom:1px solid white;
+}
+
+.sidebar-link{
+	display:block;
+	font-size:28px;
+	color:white;
+	margin-bottom:0;
+}
+
+.sidebar-item-child {
+	display:block;
+	font-size:20px;
+	color:white;
+	text-align:right;
+	margin-right:10%;
+	font-weight:normal;
+	padding:10;
+}
+
+.sidebar-item-child:hover {
+	font-weight:700;
+}
+
+.sidebar-item:nth-child(1) {
+	padding-top:15px;
+}
+
+.sidebar-item:nth-child(3) {
+	border-bottom:none;
+}
+
+.sidebar-item:hover {
+	font-weight:700;
 }
 
 #chevron {
@@ -476,7 +549,7 @@ hr {
 	height:100%;
 }
 
-#menu {
+#menu-section {
 	background-color:#FBF3AE;
 	min-height:630px;
 	height:100%;
