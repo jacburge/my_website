@@ -346,7 +346,7 @@ hr {
 
 
 #toggle-menu {
-	position:absolute;
+	position:fixed;
 	top:60;
 	right:0;
 	background:grey;
@@ -437,7 +437,7 @@ hr {
 	margin-left:auto;
 	height:32px;
 	text-align: center;
-	color:grey;
+	color:#4a4a4a;
 	font-size:18px;
 	z-index:10;
 	position:relative;
@@ -458,11 +458,11 @@ hr {
 	display:block;
 	height:75px;
 	width:75px;
-	top:20px;
+	top:50px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:50px;
+	margin-bottom:60px;
 	z-index:5;
 }
 
@@ -470,11 +470,11 @@ hr {
 	display:block;
 	height:70px;
 	width:70px;
-	top:20px;
+	top:90px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:80px;
+	margin-bottom:120px;
 	z-index:5;
 }
 
