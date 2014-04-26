@@ -230,12 +230,8 @@ hr {
 .items {
 	font-size:18;
 	color:#4a4a4a;
-	position:absolute;
-	margin-left:auto;
-	margin-right:auto;
 	z-index:0;
 	margin-top:20; 
-	background-color:#CEF6F5;
 	padding: 0 50 20 50;
 }
 .focus {
@@ -277,7 +273,6 @@ hr {
 .header-text {
 	font-size:36px;
 	color:#4a4a4a;
-/*	text-align: center;*/
 	padding-top:80px;
 	z-index:3;
 	top:50%;
@@ -524,12 +519,8 @@ hr {
 .items {
 	font-size:15;
 	color:#4a4a4a;
-	position:absolute;
 	z-index:0;
-	margin-left:-10;
-	margin-right:-10;
 	margin-top:20; 
-	background-color:#CEF6F5;
 	padding: 0 50 20 50;
 }
 li {
@@ -607,15 +598,6 @@ li {
 	color:#A5E5E4;
 }
 
-.blue-back {
-	background-color:#CEF6F5;
-	position:absolute;
-	bottom:0;
-	z-index:1;
-	min-height:100%;
-	width:100%;
-}
-
 #title {
 	font-family: 'Poiret One', 'Josefine Sans', 'sans serif', cursive;
 	position:absolute;
@@ -658,12 +640,12 @@ li {
 .right {
 	height:50;
 	width:50;
-	top:0;
+	top:30;
 	position:absolute;
-	margin-top:-120;
 	right:5%;
 	float:right;
 	transition:.2s;
+	z-index: 10;
 }
 
 .right:hover {
@@ -673,9 +655,9 @@ li {
 .left {
 	height:50;
 	width:50;
-	top:0;
+	top:30;
 	position:absolute;
-	margin-top:-120;
+	left:5%;
 	float:left;
 	transform:rotate(180deg);
 	-webkit-transform:rotate(180deg);
@@ -688,42 +670,51 @@ li {
 }
 
 #education {
-	top:100;
+	top:60;
+	background-color:#CEF6F5;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
-	padding-bottom:20px;
+	width:100%;
+	min-height:100%;
+	padding-top:20px;
+	padding-bottom:10;
 
 }
 
 #tech {
 	background-color:#CEF6F5;
-	top:100;
+	top:60;
 	height:auto;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
-	padding-bottom:20px;
+	padding-top:20;
+	padding-bottom:10px;
 	display:none;
 }
 
 #leadership {
 	background-color:#CEF6F5;
-	top:100;
+	top:60;
 	height:auto;
+	width:100%;
 	position:relative;
-	padding-bottom:20px;
+	padding-top:20;
+	padding-bottom:10px;
 	display:none;
 }
 
 #computer {
 	background-color:#CEF6F5;
-/*	min-height:620;
-	height:100%;*/
 	height:auto;
-	top:100;
+	width:100%;
+	min-height:100%;
+	top:60;
 	position:relative;
-	padding-bottom:20px;
+	padding-top:20;
+	padding-bottom:10px;
 	display:none;
 }
 
