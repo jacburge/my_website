@@ -24,6 +24,17 @@ a {
 	text-decoration:none;
 	color:#4a4a4a;
 }
+
+.nav-bar {
+	width:100%;
+	height:60px;
+	position:fixed;
+	background-color:white;
+	border-bottom:1px solid #E6E6E6;
+	opacity:.95;
+	z-index:100;
+}
+
 /*807*/
 /**************index.html****************/
 /*======================================*/
@@ -33,8 +44,6 @@ a {
 	opacity:.70;
 	margin-left:auto;
 	margin-right:auto;
-/*	top:110px;
-	margin-bottom:50px;*/
 	top:50%;
 	margin-top:-70;
 	position:absolute;
@@ -68,16 +77,6 @@ a {
 	float:left;
 	margin-left:10%;
 	z-index:3;
-}
-
-.nav-bar {
-	width:100%;
-	height:60px;
-	position:fixed;
-	background-color:white;
-	border-bottom:1px solid #E6E6E6;
-	opacity:.95;
-	z-index:100;
 }
 
 .logo {
@@ -116,6 +115,9 @@ a {
 
 .tabs:hover {
 	color:#A5E5E4;
+}
+.mobile {
+	display:none;
 }
 
 #chevron {
@@ -224,10 +226,32 @@ hr {
 	height:550px;
 	position:absolute;
 }
-
-.mobile {
-	display:none;
+/*professional*/
+.items {
+	font-size:18;
+	color:#4a4a4a;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:0;
+	margin-top:20; 
+	background-color:#CEF6F5;
+	padding: 0 50 20 50;
 }
+.focus {
+	font-size:19;
+	color:#4a4a4a;
+	font-weight:bold;
+}
+.dates {
+	font-size:16;
+	color:#4a4a4a;
+	position:absolute;
+	right:0;
+	font-weight:bold;
+	margin-right:50;
+}
+
 
 }
 /*806*/
@@ -277,16 +301,6 @@ hr {
 	z-index:3;
 }
 
-.nav-bar {
-	width:100%;
-	height:60px;
-	position:fixed;
-	background-color:white;
-	border-bottom:1px solid #E6E6E6;
-	opacity:.95;
-	z-index:100;
-}
-
 .logo {
 	width:80;
 	height:80;
@@ -309,17 +323,13 @@ hr {
 	top:-9999px !important;
 	left:-9999px !important;
 }
-/*
-.tabs:hover {
-	color:#A5E5E4;
-}*/
 
 #menu {
 	display:inline-block;
 	cursor:pointer;
 	width:30;
 	height:30;
-	position:absolute;
+	position:fixed;
 	top:20;
 	right:7%;
 	transition:.3s;
@@ -331,18 +341,6 @@ hr {
 	height:35;
 	margin-left:7;
 }
-
-/*#sidebar {
-	display:none;
-	position:absolute;
-	top:60;
-	background:ivory;
-	width:200px;
-	height:100%;
-	z-index:-10;
-	transition:ease-in-out 0.5s;
-}*/
-
 
 
 #toggle-menu {
@@ -522,7 +520,37 @@ hr {
 	text-align:center;
 	margin-bottom:40px;
 }
+/*professional*/
+.items {
+	font-size:15;
+	color:#4a4a4a;
+	position:absolute;
+	z-index:0;
+	margin-left:-10;
+	margin-right:-10;
+	margin-top:20; 
+	background-color:#CEF6F5;
+	padding: 0 50 20 50;
+}
+li {
+	margin-left:-40;
+	margin-right:-20;
+	font-size:14;
+}
 
+.focus {
+	font-size:16;
+	color:#4a4a4a;
+	font-weight:bold;
+}
+.dates {
+	font-size:16;
+	color:#4a4a4a;
+	position:absolute;
+	right:0;
+	font-weight:bold;
+	margin-right:50;
+}
 }
 
 #meadow {
@@ -564,15 +592,6 @@ hr {
 
 /************professional.html*****************/
 /*============================================*/
-.nav-bar {
-	width:100%;
-	height:60px;
-	position:fixed;
-	background-color:white;
-	border-bottom:1px solid #E6E6E6;
-	opacity:.95;
-	z-index:100;
-}
 
 .tabs {
 	display:inline-block;
@@ -593,10 +612,8 @@ hr {
 	position:absolute;
 	bottom:0;
 	z-index:1;
-/*	min-height:100%;*/
 	min-height:100%;
 	width:100%;
-/*	height:auto;*/
 }
 
 #title {
@@ -618,7 +635,6 @@ hr {
 	position:absolute;
 	bottom:0;
 	z-index:100;
-	/*padding-top:5;*/
 	background-color:white;
 	opacity:.8;
 }
@@ -626,20 +642,22 @@ hr {
 .resume-icons {
 	height:60;
 	width:60;
-	left:48%;
+	left:50%;
+	margin-left:-30;
 	top:0;
 	position:relative;
 }
 
 #code {
-	left:47%;
-	height:55;
-	width:55;
+	left:50%;
+	height:54;
+	width:54;
+	margin-left:-27;
 }
 
 .right {
-	height:70;
-	width:70;
+	height:50;
+	width:50;
 	top:0;
 	position:absolute;
 	margin-top:-120;
@@ -653,8 +671,8 @@ hr {
 }
 
 .left {
-	height:70;
-	width:70;
+	height:50;
+	width:50;
 	top:0;
 	position:absolute;
 	margin-top:-120;
@@ -720,37 +738,15 @@ hr {
 	margin-top:10;
 }
 
-.items {
-	font-size:18;
-	color:#4a4a4a;
-/*	width:900;*/
-	position:absolute;
-	margin-left:auto;
-	margin-right:auto;
-	z-index:0;
-	margin-top:20; 
-	background-color:#CEF6F5;
-	padding: 0 50 20 50;
-}
+
 
 li {
 	line-height:1.5;
 }
 
-.focus {
-	font-size:19;
-	color:#4a4a4a;
-	font-weight:bold;
-}
 
-.dates {
-	font-size:16;
-	color:#4a4a4a;
-	position:absolute;
-	right:0;
-	font-weight:bold;
-	margin-right:50;
-}
+
+
 
 
 /***************creative.html*****************/
