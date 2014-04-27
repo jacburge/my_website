@@ -3,6 +3,12 @@ $(document).ready(function(){
 	$("#menu").click(function(){
 		$('#toggle-menu').slideToggle(400);
 	});
+
+	$(".logo").hover(function(){
+		$("#home").fadeIn(400);
+	},function(){
+		$("#home").fadeOut(400);
+	});
 	
 	$("#professional").hover(function(){
 		$("#professional").css("color","#A5E5E4");
@@ -42,32 +48,32 @@ $(document).ready(function(){
 
 	$("#next-1").click(function(){
 	  $("#education").hide(600);
-	  $("#tech").show(600);
+	  $("#tech").show(1000);
 	});
 
 	$("#next-2").click(function(){
 	  $("#tech").hide(600);
-	  $("#leadership").show(600);
+	  $("#leadership").show(1000);
 	});
 
 	$("#next-3").click(function(){
 	  $("#leadership").hide(600);
-	  $("#computer").show(600);
+	  $("#computer").show(1000);
 	});
 
 	$("#back-1").click(function(){
 	  $("#tech").hide(600);
-	  $("#education").show(600);
+	  $("#education").show(1000);
 	});
 
 	$("#back-2").click(function(){
 	  $("#leadership").hide(600);
-	  $("#tech").show(600);
+	  $("#tech").show(1000);
 	});
 
 	$("#back-3").click(function(){
 	  $("#computer").hide(600);
-	  $("#leadership").show(600);
+	  $("#leadership").show(1000);
 	});
 
 });

@@ -95,6 +95,15 @@ a {
 	margin-left:-5;
 }
 
+#home {
+	color:#4A4A4A;
+	font-size:16;
+	position:absolute;
+	left:15%;
+	top:25;
+	display:none;
+}
+
 #menu {
 	display:none;
 }
@@ -367,7 +376,16 @@ hr {
 	width:90;
 	height:90;
 	margin-top:-12;
-	margin-right:16;
+	margin-right:20;
+}
+
+#home {
+	color:#4A4A4A;
+	font-size:16;
+	position:absolute;
+	left:58%;
+	top:25;
+	display:none;
 }
 
 .tabs {
