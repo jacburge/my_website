@@ -153,12 +153,11 @@ hr {
 
 #bicycle {
 	display:block;
-	height:360px;
-	width:360px;
+	height:350px;
+	width:350px;
 	top:120px;
-	position:relative;
-	margin-right:10%;
-	float:right;
+	position:absolute;
+	right:5%;
 	z-index:5;
 }
 
@@ -204,22 +203,40 @@ hr {
 	display:inline;
 }
 
-#welcome {
+#aboutme {
 	margin-left:auto;
 	margin-right:auto;
-	width:260px;
-	top:100px;
+	width:400px;
+	height:400;
+	top:0px;
 	float:left;
-	margin-left:10%;
+	margin-left:0%;
 	color:#4a4a4a;
-	font-size:30px;
-	line-height:2;
+	font-size:23px;
+	line-height:1.5;
 	border: 3px solid white;
 	border-radius:12px;
 	padding:10px;
 	text-align:center;
 	z-index:6;
 	position:relative;
+}
+
+#welcome {
+	margin-right: auto;
+	width: 260px;
+	top: 100px;
+	float: left;
+	margin-left: 10%;
+	color: #4a4a4a;
+	font-size: 30px;
+	line-height: 2;
+	border: 3px solid white;
+	border-radius: 12px;
+	padding: 10px;
+	text-align: center;
+	z-index: 6;
+	position: relative;
 }
 
 #content-box {
@@ -426,15 +443,15 @@ hr {
 
 .footer {
 	width:90%;
-	margin-right:auto;
-	margin-left:auto;
+	left:50%;
+	margin-left:-45%;
 	height:32px;
 	text-align: center;
 	color:#4a4a4a;
 	font-size:18px;
 	z-index:10;
-	position:relative;
-	bottom:0px;
+	position:absolute;
+	bottom:60px;
 }
 
 hr {
@@ -449,12 +466,12 @@ hr {
 
 #bicycle {
 	display:block;
-	height:75px;
-	width:75px;
-	top:50px;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
+	height:74px;
+	width:74px;
+	top:20px;
+	position:absolute;
+	left:50%;
+	margin-left:-37;
 	margin-bottom:60px;
 	z-index:5;
 }
@@ -463,7 +480,7 @@ hr {
 	display:block;
 	height:70px;
 	width:70px;
-	top:90px;
+	top:30px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
@@ -501,20 +518,43 @@ hr {
 	display:inline;
 }
 
-#welcome {
-	margin-left:auto;
-	margin-right:auto;
-	width:250px;
-	top:70px;
+#aboutme {
+	margin-left:1%;
+	margin-right:1%;
+	width:260px;
+	top:110px;
 	color:#4a4a4a;
-	font-size:30px;
-	line-height:2;
+	font-size:20px;
+	line-height:1.5;
 	border: 3px solid white;
 	border-radius:12px;
 	padding:10px;
 	text-align:center;
 	margin-bottom:40px;
+	position:absolute;
 }
+
+#welcome {
+	left:50%;
+	margin-left:-140;
+	width:260;
+	top: 100px;
+	color: #4a4a4a;
+	font-size: 30px;
+	line-height: 2;
+	border: 3px solid white;
+	border-radius: 12px;
+	padding: 10px;
+	text-align: center;
+	z-index: 6;
+	position: absolute;
+}
+
+/*#welcome li {
+	font-size:16;
+	text-align: left;
+	margin-left:-10;
+}*/
 /*professional*/
 .items {
 	font-size:15;
@@ -572,6 +612,7 @@ li {
 	background-color:#FBF3AE;
 	min-height:630px;
 	height:100%;
+	position:relative;
 }
 
 #contact {
@@ -579,6 +620,7 @@ li {
 	min-height:620px;
 	height:100%;
 	z-index:19;
+	position:relative;
 }
 
 /************professional.html*****************/
