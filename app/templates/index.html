@@ -13,16 +13,29 @@
 	</head>
 
 	<body>
-		<div id="content">
 		<div class="overlay"></div>
 		<div class="nav-bar">
 				<a href="/"><img class="logo" src="/static/img/jfb_thick.svg"></a>
-				<a class="tabs" href="/fun">JUST FOR FUN</a>
-				<a class="tabs" href="/creative">CREATIVE OUTLETS</a>
-				<a class="tabs" href="/professional">PROFESSIONAL</a>
+				<div class="tabs" id="just_for_fun">JUST FOR FUN</div>
+				<div class="tabs" id="creative_outlets">CREATIVE OUTLETS</div>
+				<div class="tabs" id="professional">PROFESSIONAL</div>
+				<div class="nav-bar-popup" id="popup1">
+					<div class="sidebar-item-child"><a href="/professional" style="color:white">Resume</a></div>
+					<div class="sidebar-item-child"><a href="/professional" style="color:white">Projects</a></div>
+					<div class="sidebar-item-child"><a href="/professional" style="color:white">Articles</a></div>
+				</div>
+				<div class="nav-bar-popup" id="popup2">
+					<div class="sidebar-item-child"><a href="/creative" style="color:white">Music</a></div>
+					<div class="sidebar-item-child"><a href="/creative" style="color:white">Photography</a></div>
+					<div class="sidebar-item-child"><a href="/creative" style="color:white">Artwork</a></div>
+				</div>
+				<div class="nav-bar-popup" id="popup3">
+					<div class="sidebar-item-child"><a href="/fun" style="color:white">Hobbies</a></div>
+				</div>
 				<img id="menu" src="/static/img/menu.svg">
 				<!-- Menu designed by David Vickhoff from the Noun Project	 -->	
 			</div>
+	<div id="content">
 		<section id="main">
 			<div id="meadow">
 			</div>
@@ -38,7 +51,6 @@
 				</div>
 				<!-- Arrow designed by Lauren Frager from the Noun Project -->
 		</section>
-	</div>
 		<section id="menu-section">
 			<div id="menu-overlay">
 					<img id="hot-air-balloon" src="/static/img/hot-air-balloon.png">
@@ -86,9 +98,11 @@
 			<a class="sidebar-item-child">Photography</a>	
 			<a class="sidebar-item-child">Artwork</a>
 		</div>			
-		<div class="sidebar-item"><a class="sidebar-link" href="/fun">Just For Fun</a></div>
+		<div class="sidebar-item"><a class="sidebar-link" href="/fun">Just For Fun</a>
+			<a class="sidebar-item-child">Hobbies</a>
+		</div>
 	</div>
-
+	</div>
 	</body>
 
 </html>

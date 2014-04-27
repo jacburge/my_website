@@ -4,6 +4,41 @@ $(document).ready(function(){
 		$('#toggle-menu').slideToggle(400);
 	});
 	
+	$("#professional").hover(function(){
+		$("#professional").css("color","#A5E5E4");
+		},function(){
+		$("#professional").css("color","#4A4A4A");	
+	});
+
+	$("#professional").click(function(){
+		$("#popup1").slideToggle(400);
+	}); 
+
+	$("#content").click(function() {
+        $('#popup1').slideUp(300);
+        $('#popup2').slideUp(300);
+        $('#popup3').slideUp(300);
+    });
+
+	$("#creative_outlets").hover(function(){
+		$("#creative_outlets").css("color","#A5E5E4");
+		},function(){
+		$("#creative_outlets").css("color","#4A4A4A");	
+	});
+
+	$("#creative_outlets").click(function(){
+		$("#popup2").slideToggle(400);
+	});
+
+	$("#just_for_fun").hover(function(){
+		$("#just_for_fun").css("color","#A5E5E4");
+		},function(){
+		$("#just_for_fun").css("color","#4A4A4A");	
+	});
+
+	$("#just_for_fun").click(function(){
+		$("#popup3").slideToggle(400);
+	});
 
 	$("#next-1").click(function(){
 	  $("#education").hide(600);
