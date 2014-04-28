@@ -76,10 +76,14 @@ $(document).ready(function(){
 	  $("#leadership").show(1000);
 	});
 
-	$('#photography-items').masonry({
+	jQuery(window).on('load', function(){ 
+		var $ = jQuery;
+		$('#photography-items').masonry({
 		itemSelector : '.photo', 
-		gutter: 20
+		gutter: 20});
 	});
+
+
 
 	// $('.photo').hover(function(){
 	// 	$('.photo-caption').fadeOut(400);
