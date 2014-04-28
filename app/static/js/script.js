@@ -29,7 +29,7 @@ $(document).ready(function(){
 	$("#creative_outlets").hover(function(){
 		$("#creative_outlets").css("color","#A5E5E4");
 		},function(){
-		$("#creative_outlets").css("color","#4A4A4A");	
+		$("#creative_outlets").css("color","#4A4A4A");
 	});
 
 	$("#creative_outlets").click(function(){
@@ -75,5 +75,16 @@ $(document).ready(function(){
 	  $("#computer").hide(600);
 	  $("#leadership").show(1000);
 	});
+
+	$('#photography-items').masonry({
+		itemSelector : '.photo', 
+		gutter: 20
+	});
+
+	// $('.photo').hover(function(){
+	// 	$('.photo-caption').fadeOut(400);
+	// },function(){
+	// 	$('.photo-caption').fadeIn(400);
+	// });
 
 });

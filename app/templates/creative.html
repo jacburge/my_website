@@ -6,9 +6,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">	
+		<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">		
 		<script type="text/javascript" src="/static/js/jquery-1.10.2.js" charset="utf-8"></script>
-	<!-- 	// <script type="text/javascript" src="/static/js/waypoints.min.js" charset="utf-8"></script> -->
+		<script	type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
 		<script type="text/javascript" src="/static/js/script.js" charset="utf-8"></script>
 	</head>
 
@@ -20,25 +20,150 @@
 				<div class="tabs" id="creative_outlets">CREATIVE OUTLETS</div>
 				<div class="tabs" id="professional">PROFESSIONAL</div>
 				<div class="nav-bar-popup" id="popup1">
-					<div class="sidebar-item-child"><a href="/professional" style="color:white">Resume</a></div>
-					<div class="sidebar-item-child"><a href="/professional" style="color:white">Projects</a></div>
-					<div class="sidebar-item-child"><a href="/professional" style="color:white">Articles</a></div>
+					<div class="sidebar-item-child"><a href="/professional">Resume</a></div>
+					<div class="sidebar-item-child"><a href="/professional">Projects</a></div>
+					<div class="sidebar-item-child"><a href="/professional">Articles</a></div>
 				</div>
 				<div class="nav-bar-popup" id="popup2">
-					<div class="sidebar-item-child"><a href="/creative" style="color:white">Music</a></div>
-					<div class="sidebar-item-child"><a href="/creative" style="color:white">Photography</a></div>
-					<div class="sidebar-item-child"><a href="/creative" style="color:white">Artwork</a></div>
+					<div class="sidebar-item-child"><a href="/creative">Music</a></div>
+					<div class="sidebar-item-child"><a href="/creative">Photography</a></div>
+					<div class="sidebar-item-child"><a href="/creative">Artwork</a></div>
 				</div>
 				<div class="nav-bar-popup" id="popup3">
-					<div class="sidebar-item-child"><a href="/fun" style="color:white">Hobbies</a></div>
+					<div class="sidebar-item-child"><a href="/fun">Hobbies</a></div>
 				</div>
 				<img id="menu" src="/static/img/menu.svg">
 				<!-- Menu designed by David Vickhoff from the Noun Project	 -->	
 			</div>
 <div id="content">
 
-	<div class="header-text">Creative Outlets: Coming Soon
-				</div>
+	<!-- <div class="header-text">Creative Outlets: Coming Soon
+				</div> -->
+<div id="photography-container">
+		<div class="heading">Photography</div>
+	<div id="photography-items">
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/korea.jpg"/>
+		<div class="photo-caption">Korea</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/autumn.jpg"/>
+		<div class="photo-caption">Autumn</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/seattle.jpg"/>
+		<div class="photo-caption">Seattle</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/pacifica.jpg"/>
+		<div class="photo-caption">Pacifica</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/dog.jpg"/>
+		<div class="photo-caption">Weimaraner</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/dragon.jpg"/>
+		<div class="photo-caption">Dragon</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/peonies.jpg"/>
+		<div class="photo-caption">Spring</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/baybridge.jpg"/>
+		<div class="photo-caption">Bay Bridge</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/boat.jpg"/>
+		<div class="photo-caption">Kauai</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/piano.jpg"/>
+		<div class="photo-caption">Piano</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/bean.jpg"/>
+		<div class="photo-caption">Cloud Gate</div>
+	</div>
+		<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/ballet.jpg"/>
+		<div class="photo-caption">Ballet</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/cheeseboard.jpg"/>
+		<div class="photo-caption">Jammin'</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/bridge.jpg"/>
+		<div class="photo-caption">Golden Gate</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/countryroad.jpg"/>
+		<div class="photo-caption">Country Roads</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/cypress.jpg"/>
+		<div class="photo-caption">Lone Cypress</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/yellow.jpg"/>
+		<div class="photo-caption">Yellow</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/trafficlights.jpg"/>
+		<div class="photo-caption">Focus</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/ocean.jpg"/>
+		<div class="photo-caption">Ocean</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/powell.jpg"/>
+		<div class="photo-caption">Powell</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/pond.jpg"/>
+		<div class="photo-caption">Korean village</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/napali.jpg"/>
+		<div class="photo-caption">Napali Coast</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/sathergate.jpg"/>
+		<div class="photo-caption">Sather Gate</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/jump.jpg"/>
+		<div class="photo-caption">Jump</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/yosemite.jpg"/>
+		<div class="photo-caption">Yosemite</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/azaad.jpg"/>
+		<div class="photo-caption">Bollywood Berkeley</div>
+	</div>
+		<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/ski.jpg"/>
+		<div class="photo-caption">Lake Tahoe</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/rope.jpg"/>
+		<div class="photo-caption">Distance</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/cypress.jpg"/>
+		<div class="photo-caption">Lone Cypress</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portolio_Pics/forest.jpg"/>
+		<div class="photo-caption">Forest</div>
+	</div>
+</div>
+</div>
 
 <div id="toggle-menu" style="display:none">
 		<div class="sidebar-item"><a class="sidebar-link" href="/professional">Professional</a>

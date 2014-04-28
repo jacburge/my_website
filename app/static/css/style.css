@@ -29,6 +29,7 @@ a {
 	width:100%;
 	height:60px;
 	position:fixed;
+	top:0;
 	background-color:white;
 	border-bottom:1px solid #E6E6E6;
 	opacity:.95;
@@ -137,16 +138,21 @@ a {
 }
 
 .nav-bar-popup {
-	width:130;
+	width:115;
 	opacity:.9;
 	background-color:grey;
 	border-radius:5;
 	top:60;
 	color:white;
-	padding-left:10;
+	padding:15;
 	line-height: 2;
 	position:absolute;
 	display:none;
+}
+
+.nav-bar-popup .sidebar-item-child a {
+	font-size:18;
+	color:white;
 }
 
 .nav-bar-popup .sidebar-item-child:hover{
@@ -163,7 +169,7 @@ a {
 
 #popup3 {
 	right:40;
-	height:94;
+	height:108;
 }
 
 .mobile {
@@ -313,6 +319,11 @@ hr {
 	right:0;
 	font-weight:bold;
 	margin-right:50;
+}
+
+#photography-items {
+	margin-left:9% !important;
+	margin-right:4% !important;
 }
 
 }
@@ -616,11 +627,15 @@ hr {
 	position: absolute;
 }
 
-/*#welcome li {
-	font-size:16;
-	text-align: left;
-	margin-left:-10;
-}*/
+.photo {
+	width:100% !important;
+}
+
+#photography-items {
+	margin-left:3%;
+	margin-right:3%;
+}
+
 /*professional*/
 .items {
 	font-size:15;
@@ -850,9 +865,45 @@ li {
 
 /***************creative.html*****************/
 /*===========================================*/
+.photo {
+	width:30%;
+	float:left;
+	position:relative;
+	border-radius:5px;
+	overflow:hidden;
+	margin-top:15px;
+/*	margin-right:10px;*/
+	margin-bottom:10px;
+}
 
+.photo-caption {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	padding:10px;
+	background:rgba(0,0,0,0.4);
+	color:white;
+	font-size:18;
+/*	font-weight:700;*/
+}
 
+.img-scaled {
+	width: 100%;
+}
 
+#photography-container {
+	position:relative;
+	height:2032;
+	top:100;
+	width:100%;
+}
+
+#photography-items {
+	margin-top:20;
+	position:absolute;
+	overflow:hidden;
+
+}
 
 
 
