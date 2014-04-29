@@ -125,16 +125,19 @@ a {
 	position:absolute;
 }
 
+#home {
+	right:380;
+}
 #professional {
-	right:300;
+	right:280;
 }
 
 #creative_outlets {
-	right:155;
+	right:135;
 }
 
 #just_for_fun {
-	right:-20;
+	right:-40;
 }
 
 .nav-bar-popup {
@@ -519,7 +522,7 @@ hr {
 	background:grey;
 	color:white;
 	width:300;
-	height:480;
+	height:280;
 	z-index:15;
 	opacity:.9;
 	border-radius:5;
@@ -557,7 +560,7 @@ hr {
 	padding-top:15px;
 }
 
-.sidebar-item:nth-child(3) {
+.sidebar-item:nth-child(4) {
 	border-bottom:none;
 }
 

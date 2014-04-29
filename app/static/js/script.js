@@ -10,6 +10,12 @@ $(document).ready(function(){
 		$("#home").fadeOut(400);
 	});
 	
+	$("#home").hover(function(){
+		$("#home").css("color","#A5E5E4");
+		},function(){
+		$("#home").css("color","#4A4A4A");	
+	});
+
 	$("#professional").hover(function(){
 		$("#professional").css("color","#A5E5E4");
 		},function(){
