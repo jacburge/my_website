@@ -9,6 +9,7 @@
 		<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">		
 		<script type="text/javascript" src="/static/js/jquery-1.10.2.js" charset="utf-8"></script>
 		<script	type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
+		<script	type="text/javascript" src="/static/js/imagesloaded.pkgd.min.js"></script>
 		<script type="text/javascript" src="/static/js/script.js" charset="utf-8"></script>
 	</head>
 
@@ -16,22 +17,22 @@
 		<div class="nav-bar">
 				<a href="/"><img class="logo" src="/static/img/jfb_thick.svg"></a>
 				<div id="home">Home</div>
-				<div class="tabs" id="just_for_fun">JUST FOR FUN</div>
-				<div class="tabs" id="creative_outlets">CREATIVE OUTLETS</div>
-				<div class="tabs" id="professional">PROFESSIONAL</div>
-				<div class="nav-bar-popup" id="popup1">
+				<a class="tabs" id="just_for_fun" href="/fun">JUST FOR FUN</a>
+				<a class="tabs" id="creative_outlets" href="/creative">CREATIVE OUTLETS</a>
+				<a class="tabs" id="professional" href="/professional">PROFESSIONAL</a>
+				<!-- <div class="nav-bar-popup" id="popup1">
 					<div class="sidebar-item-child"><a href="/professional">Resume</a></div>
 					<div class="sidebar-item-child"><a href="/professional">Projects</a></div>
 					<div class="sidebar-item-child"><a href="/professional">Articles</a></div>
 				</div>
 				<div class="nav-bar-popup" id="popup2">
-					<div class="sidebar-item-child"><a href="/creative">Photography</a></div>
+					<div class="sidebar-item-child"><a href="/#photography-container">Photography</a></div>
 					<div class="sidebar-item-child"><a href="/creative">Music</a></div>
 					<div class="sidebar-item-child"><a href="/creative">Artwork</a></div>
 				</div>
 				<div class="nav-bar-popup" id="popup3">
 					<div class="sidebar-item-child"><a href="/fun">Hobbies</a></div>
-				</div>
+				</div> -->
 				<img id="menu" src="/static/img/menu.svg">
 				<!-- Menu designed by David Vickhoff from the Noun Project	 -->	
 			</div>
@@ -39,8 +40,14 @@
 
 	<!-- <div class="header-text">Creative Outlets: Coming Soon
 				</div> -->
-<div id="photography-container">
-		<div class="heading">Photography</div>
+<div id="creative-heading">
+	<div class="creative-tabs" id="music-tab">Music</div>
+	<div class="creative-tabs" id="photography-tab">Photography</div>
+	<div class="creative-tabs" id="artwork-tab">Artwork</div>
+	<hr>
+</div>
+<section id="photography">
+<div class="intro">Just a small glimpse into how I view the world.</div>
 	<div id="photography-items">
 	<div class="photo">
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/korea.JPG"/>
@@ -77,10 +84,6 @@
 	<div class="photo">
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/boat.JPG"/>
 		<div class="photo-caption">Kauai</div>
-	</div>
-	<div class="photo">
-		<img class="img-scaled" src="/static/img/Portfolio_Pics/piano.JPG"/>
-		<div class="photo-caption">Piano</div>
 	</div>
 	<div class="photo">
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/bean.JPG"/>
@@ -138,10 +141,10 @@
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/yosemite.JPG"/>
 		<div class="photo-caption">Yosemite</div>
 	</div>
-	<div class="photo">
+<!-- 	<div class="photo">
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/azaad.JPG"/>
 		<div class="photo-caption">Bollywood Berkeley</div>
-	</div>
+	</div> -->
 		<div class="photo">
 		<img class="img-scaled" src="/static/img/Portfolio_Pics/ski.JPG"/>
 		<div class="photo-caption">Lake Tahoe</div>
@@ -159,7 +162,105 @@
 		<div class="photo-caption">Forest</div>
 	</div>
 </div>
+</section>
+<section id="music">
+	<div class="intro">Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything. - Plato</div>
+		<br>
+	<div id="box1" style="position:relative">
+	<div class="music-photo" id="piano">
+		<img class="img-scaled" src="/static/img/Portfolio_Pics/piano.JPG"/>
+	</div>
+	<div class="music-boxes" id="music-training">
+		Training
+		<ul>
+			<li>13 years of piano lessons</li>
+			<li>2 years of pipe organ lessons</li>
+			<li>1 year of percussion in Kingsburg High School symphonic band</li>
+			<li>Music 98: Traditional Korean Percussion (UC Berkeley)</li>
+			<li>Music 128: History of the Symphony (UC Berkeley)</li>
+			<li>Music 135: Musics of the Caribbean (UC Berkeley)</li>
+		</ul>
+	</div>
+	</div>
+	<div id="box2">
+	<div class="music-boxes" id="music-experience">
+		Experience
+		<ul>
+			<li>Wedding Pianist (Nov 2013)</li>
+			<li>Performed Beethoven's Piano Concerto #2 with Kingsburg High School wind ensemble (2011)</li>
+			<li>Piano accompanist for performance of Glazunov's Saxophone Concerto in E flat major, Op.109(2011)</li>
+			<li>1 year of percussion in Kingsburg High School symphonic band (2010-2011)</li>
+			<li>Piano Solo Festival at Fresno State University rating 'Excellent' for Debussy's Clair de Lune (2010)</li>
+			<li>Volunteered as weekly pianist for local senior home (2008-2010)</li>
+			<li>Pipe Organ Encounters sponsored by the American Guild of Organists in Seattle (2008) and San Diego (2009)</li>
+			<li>Piano Solo Festival at Fresno State University rating 'Excellent' for Beethoven's Sonata Op.14 No.2 (2008)</li>
+			<li>Play for offertory and Christmas Eve service at home church on occasion</li>
+		</ul>
+	</div>
+	<div class="music-photo" id="ego">
+		<img class="img-scaled" src="/static/img/ego.JPG"/>
+	</div>	
+	<div id="artists">
+		<div style="font-size:24">Favorite Musical Artists:</div>
+		<br>
+		<br>
+		Debussy, Chopin, Beethoven, Death Cab for Cutie, Coldplay, Muse, Bob Marley, Owl City, The Postal Service, Imagine Dragons, Alt-J, U2, Ludovico Eiunadi
+	</div>
 </div>
+</section>
+<section id="artwork">
+	<div class="intro">In 2013 I spent the summer at Ewha Woman’s University in Seoul, Korea studying Traditional East Asian painting. It was a glorious experience as I immersed myself in the Korean half of my culture for the first time in my life, with no prior understanding of the language. Perhaps most special to me was knowing that I was retracing the steps of my grandmother and grand aunt, who graduated from Ewha studying piano and art, respectively. The first few items below showcase some of my work from that summer.</div>
+	<div id="artwork-items">
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/fan-full.PNG"/>
+		<div class="photo-caption">Traditional East Asian Painting</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/bamboo.JPG"/>
+		<div class="photo-caption">Bamboo</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/blossoms-small.JPG"/>
+		<div class="photo-caption">Plum Blossoms</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/fan-close.JPG"/>
+		<div class="photo-caption">Fan</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/blossoms-close.jpg"/>
+		<div class="photo-caption">Plum Blossoms</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/orchid.JPG"/>
+		<div class="photo-caption">Orchid</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/ark.jpeg"/>
+		<div class="photo-caption">Ark Easter Service</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/greatminds.JPG"/>
+		<div class="photo-caption">Doodles</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/road.JPG"/>
+		<div class="photo-caption">Country Roads</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/collage.JPG"/>
+		<div class="photo-caption">Travel</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/slippers.JPG"/>
+		<div class="photo-caption">Ballet</div>
+	</div>
+	<div class="photo">
+		<img class="img-scaled" src="/static/img/Portfolio_Art/sfbridge.JPG"/>
+		<div class="photo-caption">Golden Gate</div>
+	</div>
+</div>
+</section>
 
 <div id="toggle-menu" style="display:none">
 		<div class="sidebar-item"><a class="sidebar-link" href="/professional">Professional</a>

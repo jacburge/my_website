@@ -76,19 +76,94 @@ $(document).ready(function(){
 	  $("#leadership").show(1000);
 	});
 
+	$('#music-tab').click(function(){
+	  	$("#photography").fadeOut(600);
+	  	$("#artwork").fadeOut(600);
+	  	$("#music").fadeIn(600);
+	  	$('#photography-tab').css("color","#4A4A4A");
+	  	$('#artwork-tab').css("color","#4A4A4A");
+	  	$('#music-tab').css("color","#A5E5E4");
+	});
+	$('#photography-tab').click(function(){
+	  	$("#music").fadeOut(600);
+	  	$("#artwork").fadeOut(600);
+	  	$("#photography").fadeIn(600);
+	  	$('#music-tab').css("color","#4A4A4A");
+	  	$('#artwork-tab').css("color","#4A4A4A");
+	  	$('#photography-tab').css("color","#A5E5E4");
+	});
+	$('#artwork-tab').click(function(){
+	  	$("#photography").fadeOut(600);
+	  	$("#music").fadeOut(600);
+	  	$("#artwork").fadeIn(600);
+	  	$('#photography-tab').css("color","#4A4A4A");
+	  	$('#music-tab').css("color","#4A4A4A");
+	  	$('#artwork-tab').css("color","#A5E5E4");
+	});
+
 	jQuery(window).on('load', function(){ 
 		var $ = jQuery;
+		// $('#artwork-items').masonry({
+		// itemSelector : '.photo', 
+		// gutter: 20});
+		setTimeout(function() {
 		$('#photography-items').masonry({
 		itemSelector : '.photo', 
 		gutter: 20});
+		}, 100);	
 	});
 
+	jQuery(window).on('load', function(){ 
+		var $ = jQuery;
+		// $('#artwork-items').masonry({
+		// itemSelector : '.photo', 
+		// gutter: 20});
+		setTimeout(function() {
+		$('#artwork-items').masonry({
+		itemSelector : '.photo', 
+		gutter: 20});
+		}, 2500);	
+	});
+
+// var container = document.querySelector('#artwork-items');
+// // initialize Masonry after all images have loaded
+// imagesLoaded( container, function() {
+//   var msnry = new Masonry( container, {gutter:20} );
+//   // itemSelector = '.photo',
+//   // gutter:20;
+// });
+
+// $('#artwork').ready(function() {
+// 	var $container = $('#artwork-items');
+// // initialize Masonry after all images have loaded  
+// 	$container.imagesLoaded( function() {
+//  	$container.masonry({
+// 		itemSelector : '.photo', 
+// 		gutter: 20});
+//  });
+// });
 
 
-	// $('.photo').hover(function(){
-	// 	$('.photo-caption').fadeOut(400);
-	// },function(){
-	// 	$('.photo-caption').fadeIn(400);
+// $('#photography').ready(function() {
+// 	var $container = $('#artwork-items');
+// // initialize Masonry after all images have loaded  
+// 	$container.imagesLoaded( function() {
+//  	$container.masonry({
+// 		itemSelector : '.photo', 
+// 		gutter: 20});
+//  });
+// });
+	// $(window).load(function(){
+
+	// 	$('#artwork-items').masonry({
+	// 	itemSelector : '.photo', 
+	// 	gutter: 20});
 	// });
+
+	// $('#artwork-items').masonry({
+	// 	itemSelector : '.photo', 
+	// 	gutter: 20
+	// });
+
 
 });

@@ -321,9 +321,90 @@ hr {
 	margin-right:50;
 }
 
+/*creative*/
+
 #photography-items {
-	margin-left:9% !important;
-	margin-right:4% !important;
+	margin-top:20;
+	position:absolute;
+	overflow:hidden;
+	margin-left:9%;
+	margin-right:4%;
+}
+
+#artwork-items {
+	margin-top:20;
+	position:absolute;
+	overflow:hidden;
+	margin-left:9%;
+	margin-right:4%;
+}
+
+.music-photo {
+	width:30%;
+	border-radius:5px;
+	overflow:hidden;
+	position:absolute;
+	margin-top:20;
+	margin-left:60;
+	margin-bottom:60;
+}
+
+#ego {
+	margin-bottom:30;
+	left:50%;
+	top:40%;
+}
+
+#piano {
+	right:56%;
+}
+
+.music-boxes {
+	font-size:24;
+	border:6px solid #FBF3AE;
+	background-color:white;
+	border-radius:5;
+	padding:20;
+	color:#4A4A4A;
+	text-align: left;
+	margin-top:20;
+	margin-right:30;
+	width:30%;
+}
+
+.music-boxes li {
+	margin-left:-20;
+	font-size:20;
+}
+
+#music-training {
+	position:absolute;
+	left:52%;
+	margin-right:30;
+}
+
+#music-experience {
+	right:52%;
+	margin-top:60;
+	margin-right:0;
+/*	margin-left:30;*/
+	top:30%;
+	position:absolute;
+	margin-bottom:30;
+}
+
+#artists {
+	position:absolute;
+	border:3px solid #A5E5E4;
+	border-radius: 5;
+	padding:10;
+	font-size:20;
+	color:#4A4A4A;
+	text-align: center;
+	width:30%;
+	left:55%;
+	top:70%;
+
 }
 
 }
@@ -636,6 +717,11 @@ hr {
 	margin-right:3%;
 }
 
+#artwork-items {
+	margin-left:3%;
+	margin-right:3%;
+}
+
 /*professional*/
 .items {
 	font-size:15;
@@ -663,6 +749,67 @@ li {
 	font-weight:bold;
 	margin-right:50;
 }
+/*creative*/
+.creative-tabs {
+	font-size:20 !important;
+	width:30% !important;
+}
+
+.music-boxes {
+	font-size:20;
+	border:6px solid #FBF3AE;
+	background-color:white;
+	padding:20;
+	border-radius:5;
+	color:#4A4A4A;
+	text-align:left;
+	margin-bottom:30;
+	margin-top:20;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:78%;
+}
+
+.music-boxes li {
+	font-size:18 !important;
+}
+
+.music-photo {
+	width:90%;
+	position:relative;
+	border-radius:5px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	top:0;
+}
+
+#music-experience {
+	margin-top:0;
+}
+
+#ego {
+	margin-bottom:30;
+	margin-top:0;
+}
+
+#artists {
+	position:relative;
+	border:3px solid #A5E5E4;
+	border-radius: 5;
+	padding:10;
+	font-size:20;
+	color:#4A4A4A;
+	text-align: center;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30;
+	margin-bottom:30;
+
+}
+
 }
 
 #meadow {
@@ -891,34 +1038,77 @@ li {
 	width: 100%;
 }
 
-#photography-container {
+#photography {
 	position:relative;
-	height:2032;
+	height:2050;
 	top:100;
 	width:100%;
-	display:inline-block;
 	padding-bottom:30;
 }
-
+/*
 #photography-items {
 	margin-top:20;
 	position:absolute;
 	overflow:hidden;
+}*/
 
+#artwork {
+	position:relative;
+	height:1400;
+	top:100;
+	width:100%;
+	display:none;
+	padding-bottom:30;
 }
 
+#music {
+	position:relative;
+	height:1400;
+	top:100;
+	width:100%;
+	display:none;
+	padding-bottom:30;
+}
 
+#creative-heading {
+	position:relative;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	top:100;
+}
 
+.creative-tabs {
+	font-size:24;
+	color:#4A4A4A;
+	text-align:center;
+	display:inline-block;
+	width:32%;
+	cursor:pointer;
+	transition:.3s;
+}
 
+#photography-tab {
+	color:#A5E5E4;
+}
 
+.creative-tabs:hover {
+	color:#A5E5E4;
+}
 
+.intro {
+	font-size:18;
+	color:#4A4A4A;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20;
+}
 
-
-
-
-
-
-
+.music-boxes li {
+	margin-left:-20;
+	font-size:20;
+}
 
 /******************fun.html*******************/
 /*===========================================*/
