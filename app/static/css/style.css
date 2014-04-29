@@ -36,6 +36,13 @@ a {
 	z-index:100;
 }
 
+#social {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
 /*807*/
 /**************index.html****************/
 /*======================================*/
@@ -94,6 +101,10 @@ a {
 	height:90;
 	margin-top:-12;
 	margin-left:-5;
+}
+
+.social-icon {
+	width:50;
 }
 
 #home {
@@ -197,7 +208,7 @@ a {
 	font-size:18px;
 	z-index:5;
 	position:relative;
-	bottom:-145px;
+	bottom:-195px;
 }
 
 hr {
@@ -212,11 +223,11 @@ hr {
 
 #bicycle {
 	display:block;
-	height:350px;
-	width:350px;
-	top:120px;
+	height:400px;
+	width:400px;
+	top:50px;
 	position:absolute;
-	right:5%;
+	left:50%;
 	z-index:5;
 }
 
@@ -224,10 +235,10 @@ hr {
 	display:block;
 	height:400px;
 	width:400px;
-	float:left;
+	right:50%;
 	top:110px;
-	position:relative;
-	margin-right:auto;
+	position:absolute;
+	margin-right:5%;
 	z-index:5;
 }
 
@@ -263,13 +274,11 @@ hr {
 }
 
 #aboutme {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:0;
 	width:400px;
 	height:425;
-	top:-20px;
-	float:left;
-	margin-left:0%;
+	top:100px;
+	left:50%;
 	color:#4a4a4a;
 	font-size:23px;
 	line-height:1.5;
@@ -278,17 +287,17 @@ hr {
 	padding:10px;
 	text-align:center;
 	z-index:6;
-	position:relative;
+	position:absolute;
 }
 
 #welcome {
 	margin-right: auto;
-	width: 260px;
+	width: 300px;
 	top: 100px;
 	float: left;
 	margin-left: 10%;
 	color: #4a4a4a;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 2;
 	border: 3px solid white;
 	border-radius: 12px;
@@ -474,6 +483,10 @@ hr {
 	margin-right:20;
 }
 
+.social-icon {
+	width:35;
+}
+
 #home {
 	color:#4A4A4A;
 	font-size:16;
@@ -610,7 +623,7 @@ hr {
 	font-size:18px;
 	z-index:10;
 	position:absolute;
-	bottom:60px;
+	bottom:90px;
 }
 
 hr {
@@ -810,7 +823,6 @@ li {
 	margin-right:auto;
 	margin-top:30;
 	margin-bottom:30;
-
 }
 
 }
