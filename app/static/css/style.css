@@ -25,6 +25,11 @@ a {
 	color:#4a4a4a;
 }
 
+.items a {
+	color:#4BC8C6;
+	font-weight: 700;
+}
+
 .nav-bar {
 	width:100%;
 	height:60px;
@@ -316,8 +321,13 @@ hr {
 	font-size:18;
 	color:#4a4a4a;
 	z-index:0;
-	margin-top:20; 
-	padding: 0 50 20 50;
+	margin:20 10% 30 10%;
+/*	padding: 0 50 20 50;*/
+	padding: 20 50 20 50;
+	background-color:white;
+	border:5px solid #FBF3AE;
+	border-radius:5;
+	position:relative;
 }
 .focus {
 	font-size:19;
@@ -407,7 +417,7 @@ hr {
 
 #artists {
 	position:absolute;
-	border:3px solid #A5E5E4;
+	border:5px solid #A5E5E4;
 	border-radius: 5;
 	padding:10;
 	font-size:20;
@@ -744,7 +754,13 @@ hr {
 	color:#4a4a4a;
 	z-index:0;
 	margin-top:20; 
-	padding: 0 50 20 50;
+	/*padding: 0 50 20 50;*/
+	padding: 20 20 20 30;
+	background-color:white;
+	border:5px solid #FBF3AE;
+	border-radius:5;
+	position:relative;
+	margin:20 5 20 5;
 }
 li {
 	margin-left:-40;
@@ -763,7 +779,7 @@ li {
 	position:absolute;
 	right:0;
 	font-weight:bold;
-	margin-right:50;
+	margin-right:10;
 }
 /*creative*/
 .creative-tabs {
@@ -812,7 +828,7 @@ li {
 
 #artists {
 	position:relative;
-	border:3px solid #A5E5E4;
+	border:5px solid #A5E5E4;
 	border-radius: 5;
 	padding:10;
 	font-size:20;
@@ -925,8 +941,8 @@ li {
 .right {
 	height:50;
 	width:50;
-	top:30;
-	position:absolute;
+	top:0;
+	position:relative;
 	right:5%;
 	float:right;
 	transition:.2s;
@@ -1104,7 +1120,7 @@ li {
 }
 
 #photography-tab {
-	color:#A5E5E4;
+	color:#4BC8C6;
 }
 
 .creative-tabs:hover {

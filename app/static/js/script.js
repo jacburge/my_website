@@ -9,15 +9,9 @@ $(document).ready(function(){
 	},function(){
 		$("#home").fadeOut(400);
 	});
-	
-	$("#home").hover(function(){
-		$("#home").css("color","#A5E5E4");
-		},function(){
-		$("#home").css("color","#4A4A4A");	
-	});
 
 	$("#professional").hover(function(){
-		$("#professional").css("color","#A5E5E4");
+		$("#professional").css("color","#4BC8C6");
 		},function(){
 		$("#professional").css("color","#4A4A4A");	
 	});
@@ -33,7 +27,7 @@ $(document).ready(function(){
     });
 
 	$("#creative_outlets").hover(function(){
-		$("#creative_outlets").css("color","#A5E5E4");
+		$("#creative_outlets").css("color","#4BC8C6");
 		},function(){
 		$("#creative_outlets").css("color","#4A4A4A");
 	});
@@ -43,7 +37,7 @@ $(document).ready(function(){
 	});
 
 	$("#just_for_fun").hover(function(){
-		$("#just_for_fun").css("color","#A5E5E4");
+		$("#just_for_fun").css("color","#4BC8C6");
 		},function(){
 		$("#just_for_fun").css("color","#4A4A4A");	
 	});
@@ -88,7 +82,7 @@ $(document).ready(function(){
 	  	$("#music").fadeIn(600);
 	  	$('#photography-tab').css("color","#4A4A4A");
 	  	$('#artwork-tab').css("color","#4A4A4A");
-	  	$('#music-tab').css("color","#A5E5E4");
+	  	$('#music-tab').css("color","#4BC8C6");
 	});
 	$('#photography-tab').click(function(){
 	  	$("#music").fadeOut(600);
@@ -96,7 +90,7 @@ $(document).ready(function(){
 	  	$("#photography").fadeIn(600);
 	  	$('#music-tab').css("color","#4A4A4A");
 	  	$('#artwork-tab').css("color","#4A4A4A");
-	  	$('#photography-tab').css("color","#A5E5E4");
+	  	$('#photography-tab').css("color","#4BC8C6");
 	});
 	$('#artwork-tab').click(function(){
 	  	$("#photography").fadeOut(600);
@@ -104,7 +98,7 @@ $(document).ready(function(){
 	  	$("#artwork").fadeIn(600);
 	  	$('#photography-tab').css("color","#4A4A4A");
 	  	$('#music-tab').css("color","#4A4A4A");
-	  	$('#artwork-tab').css("color","#A5E5E4");
+	  	$('#artwork-tab').css("color","#4BC8C6");
 	});
 
 	jQuery(window).on('load', function(){ 
