@@ -106,33 +106,38 @@ $(document).ready(function(){
 		// $('#artwork-items').masonry({
 		// itemSelector : '.photo', 
 		// gutter: 20});
-		setTimeout(function() {
 		$('#photography-items').masonry({
 		itemSelector : '.photo', 
 		gutter: 20});
-		}, 100);	
 	});
 
-	jQuery(window).on('load', function(){ 
-		var $ = jQuery;
-		// $('#artwork-items').masonry({
-		// itemSelector : '.photo', 
-		// gutter: 20});
-		setTimeout(function() {
-		$('#artwork-items').masonry({
-		itemSelector : '.photo', 
-		gutter: 20});
-		}, 2500);	
-	});
+	// jQuery(window).on('load', function(){ 
+	// 	var $ = jQuery;
+	// 	// $('#artwork-items').masonry({
+	// 	// itemSelector : '.photo', 
+	// 	// gutter: 20});
+// $(window).imagesLoaded( function() {
+// 		$('#artwork-items').masonry({
+// 		itemSelector : '.photo', 
+// 		gutter: 20});
+// 	});
+// // });
 
-// var container = document.querySelector('#artwork-items');
-// // initialize Masonry after all images have loaded
-// imagesLoaded( container, function() {
-//   var msnry = new Masonry( container, {gutter:20} );
-//   // itemSelector = '.photo',
-//   // gutter:20;
+$('#artwork-tab').click(function() {
+	var container = document.querySelector('#artwork-items');
+	// initialize Masonry after all images have loaded
+	imagesLoaded( container, function() {
+	  var msnry = new Masonry( container, {gutter:20} );
+});
+});
+
+// $('#photography-tab').click(function() {
+// 	var container = document.querySelector('#photography-items');
+// 	// initialize Masonry after all images have loaded
+// 	imagesLoaded( container, function() {
+// 	  var msnry = new Masonry( container, {gutter:20} );
 // });
-
+// });
 // $('#artwork').ready(function() {
 // 	var $container = $('#artwork-items');
 // // initialize Masonry after all images have loaded  
