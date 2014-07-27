@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+	if ( $.browser.msie )
+ 		alert( 'Unfortunately, Internet Explorer is not currently supported on this website. Your best options for viewing will be Chrome or Safari. Apologies for the inconvenience. Thank you!' );
+
 	$("#menu").click(function(){
 		$('#toggle-menu').slideToggle(400);
 	});
