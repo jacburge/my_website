@@ -14,7 +14,7 @@
 	</head>
 
 	<body>
-		<!-- <div class="overlay"></div> -->
+		<div class="overlay"></div>
 		<div class="nav-bar">
 				<a href="/"><img class="logo" src="/static/img/jfb_thick.svg"></a>
 				<div id="home">Home</div>
@@ -43,54 +43,29 @@
 			<div id="meadow">
 			</div>
 			<div class="img-holder">
-				<img src="/static/img/brick.jpg">
+				<img src="/static/img/me.jpg">
 			</div>
-			<div id="aboutme">
-							<span style="font-size:35">Hi. I’m <b>Jaclyn Field Burge.</b></span>
-							<br>
-							Student
-							<br>
-							Product Manager
-							<br>
-							Musician
-							<br>
-							Data Analyst
-							<br>
-							Ballerina
-							<br>
-							Web Developer
-							<br>
-							Tai Chi Enthusiast
-							<br>
-							Researcher
-							<br>
-							Multicultural Percussionist
-							<br>
-							Story Collector
-							<br>
-							Explorer of the World
-						</div>
-				<!-- <div class="header">
-				</div> -->
-				<!-- <div class="header-text">Jaclyn Field Burge
-				</div> -->
+				<div class="header">
+				</div>
+				<div class="header-text">Jaclyn Field Burge
+				</div>
 				<div>
 					<img id="chevron" src="/static/img/chevron.png">
 				</div>
 				<!-- Arrow designed by Lauren Frager from the Noun Project -->
 		</section>
-<!-- 		<section id="menu-section">
+		<section id="menu-section">
 			<div id="menu-overlay">
-					<img id="hot-air-balloon" src="/static/img/hot-air-balloon.png"> -->
+					<img id="hot-air-balloon" src="/static/img/hot-air-balloon.png">
 					<!-- Hot Air Balloon designed by Ealancheliyan s from the Noun Project -->
-				<!-- 	<div id="directory">
+					<div id="directory">
 						<div id="aboutme">
 							<span style="font-size:35"><b>I’m Jaclyn</b></span>, a 4th year undergraduate at <b>UC Berkeley</b> studying <b>Cognitive Science</b> (aka the interdisciplinary study of the mind). I am inspired by learning and diverse experiences, with an <b>insatiable curiosity</b> and an aversion to stagnation. People say I’m eccentric, whimsical, headstrong, passionate, reserved, and facetious. Most importantly, I view the world with <b>hope</b> and plan on using every day of my life to <b>make a positive difference</b>. 
 						</div>
 					</div>
 			</div>
 
-		</section> -->
+		</section>
 		<section id="contact">
 				<img id="bicycle" src="/static/img/bicycle.png">
 				<!-- Bicycle designed by Fabio Meroni from the Noun Project-->

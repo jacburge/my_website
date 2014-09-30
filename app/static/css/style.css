@@ -85,11 +85,11 @@ a {
 
 .img-holder {
 	border-radius: 50%;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 400px;
 	overflow:hidden;
 	top:50%;
-	margin-top:-125;
+	margin-top:-160;
 	position:absolute;
 	float:left;
 	margin-left:10%;
@@ -294,11 +294,11 @@ hr {
 	height:425;
 	top:100px;
 	left:50%;
-	color:#4a4a4a;
+	color:white;
 	font-size:23px;
 	line-height:1.5;
-	border: 3px solid white;
-	border-radius:12px;
+/*	border: 3px solid white;
+	border-radius:12px;*/
 	padding:10px;
 	text-align:center;
 	z-index:6;
@@ -860,21 +860,22 @@ li {
 }
 
 #meadow {
-	background-image: url(../img/meadow2.JPG);
+	/*background-image: url(../img/brick.JPG);*/
+	background-color:black;
 	background-size:cover;
-	opacity:.85;
+	/*opacity:.85;*/
 	top:60;
 	width:100%;
 	min-height:620px;
-	height:100%;
-	overflow:stretch;
+	/*height:100%;*/
+	overflow:hidden;
 	position:relative;
 	z-index:-1;
 }
 
 
 .img-holder img {
-	width:100%;
+	width:auto;
 	height:100%;
 }
 
