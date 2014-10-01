@@ -21,6 +21,3 @@ def fun():
 def portfolio():
 	return render_template('portfolio.html')
 
-@app.route('/boot_index/')
-def boot_index():
-	return render_template('bootstrap_index.html')
