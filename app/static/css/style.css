@@ -799,7 +799,7 @@ hr {
 
 #welcome {
 	left:50%;
-	margin-left:-140;
+	margin-left:-80;
 	width:260;
 	top: 280px;
 	color: white;
@@ -808,7 +808,7 @@ hr {
 /*	border: 3px solid white;
 	border-radius: 12px;*/
 	padding: 10px;
-	text-align: center;
+	text-align: left;
 	z-index: 6;
 	position: absolute;
 }
@@ -1022,7 +1022,7 @@ li {
 	left:50%;
 	height:54;
 	width:54;
-	margin-left:-27;
+	margin-left:-75;
 }
 
 .right {
@@ -1030,7 +1030,7 @@ li {
 	width:50;
 	top:0;
 	position:relative;
-	right:5%;
+	right:10%;
 	float:right;
 	transition:.2s;
 	-webkit-transition:.2s;
@@ -1045,9 +1045,9 @@ li {
 .left {
 	height:50;
 	width:50;
-	top:30;
-	position:absolute;
-	left:5%;
+	top:0;
+	position:relative;
+	left:10%;
 	float:left;
 	transform:rotate(180deg);
 	-webkit-transform:rotate(180deg);
@@ -1063,7 +1063,7 @@ li {
 
 #education {
 	top:60;
-	background-color:#CEF6F5;
+	background-color:#0B0B3B;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -1075,7 +1075,7 @@ li {
 }
 
 #tech {
-	background-color:#CEF6F5;
+	background-color:#0B0B3B;
 	top:60;
 	height:auto;
 	width:100%;
@@ -1088,7 +1088,7 @@ li {
 }
 
 #leadership {
-	background-color:#CEF6F5;
+	background-color:#0B0B3B;
 	top:60;
 	height:auto;
 	width:100%;
@@ -1099,7 +1099,7 @@ li {
 }
 
 #computer {
-	background-color:#CEF6F5;
+	background-color:#0B0B3B;
 	height:auto;
 	width:100%;
 	min-height:100%;
@@ -1112,7 +1112,7 @@ li {
 
 .heading {
 	font-size:24;
-	color:#4a4a4a;
+	color:white;
 	width:90%;
 	text-align:center;
 	border-bottom:1px solid white;
