@@ -21,3 +21,6 @@ def fun():
 def portfolio():
 	return render_template('portfolio.html')
 
+@app.route('/old_index/')
+def portfolio():
+	return render_template('old_index.html')
