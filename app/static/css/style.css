@@ -86,6 +86,8 @@ a {
 }
 
 .img-holder {
+	background-image: url(../img/me1.JPG);
+	background-size:540px;
 	border-radius: 50%;
 	width: 400px;
 	height: 400px;
@@ -96,9 +98,14 @@ a {
 	float:left;
 	margin-left:10%;
 	z-index:3;
+	transition:.5s;
 }
 
+
+
 .logo-holder {
+	background-image: url(../img/jfb.png);
+	background-size: 100%;
 	border-radius: 50%;
 	width: 400px;
 	height: 400px;
@@ -109,11 +116,7 @@ a {
 	float:right;
 	margin-right:10%;
 	z-index:3;
-}
-
-.logo-holder img {
-	width:auto;
-	height:100%;
+	transition:.5s;
 }
 
 .logo {
@@ -508,6 +511,8 @@ hr {
 }
 
 .img-holder {
+	background-image: url(../img/me1.jpg);
+	background-size:270px;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
@@ -518,9 +523,12 @@ hr {
 	left:50%;
 	margin-left:-100px;
 	z-index:3;
+	transition:.5s;
 }
 
 .logo-holder {
+	background-image: url(../img/jfb.png);
+	background-size: 100%;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
@@ -531,6 +539,7 @@ hr {
 	left:50%;
 	margin-left:-100px;
 	z-index:3;
+	transition:.5s;
 }
 
 .logo {
@@ -935,16 +944,37 @@ li {
 	position:relative;
 	z-index:-1;
 }
-
+/*
 
 .img-holder img {
 	width:auto;
 	height:100%;
+}*/
+
+.img-holder:hover{
+	background-image: url(../img/me2.JPG);
+	background-size:100%;
 }
 
-.logo-holder img {
-	width:auto;
-	height:100%;
+.logo-holder:hover{
+	background-image:none;
+	border-radius:50%;
+	border:solid white 5px;
+}
+
+.logo-holder:hover #logo-text {
+	display:block;
+}
+
+#logo-text {
+	display:none;
+	color:white;
+	text-align:center;
+	width:100%;
+	font-size:26;
+	position:relative;
+	top:45%;
+	z-index:1000;
 }
 
 #main {
@@ -1010,8 +1040,8 @@ li {
 }
 
 .resume-icons {
-	height:60;
-	width:60;
+	height:54;
+	width:54;
 	left:50%;
 	margin-left:-30;
 	top:0;
@@ -1019,10 +1049,15 @@ li {
 }
 
 #code {
-	left:50%;
-	height:54;
-	width:54;
+	height:50;
+	width:50;
 	margin-left:-75;
+}
+
+#quill {
+	margin-left:-75;
+	height:60;
+	width:60;
 }
 
 .right {
@@ -1063,7 +1098,7 @@ li {
 
 #education {
 	top:60;
-	background-color:#0B0B3B;
+	background-color:#0A0A2A;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -1075,7 +1110,7 @@ li {
 }
 
 #tech {
-	background-color:#0B0B3B;
+	background-color:#0A0A2A;
 	top:60;
 	height:auto;
 	width:100%;
@@ -1088,7 +1123,7 @@ li {
 }
 
 #leadership {
-	background-color:#0B0B3B;
+	background-color:#0A0A2A;
 	top:60;
 	height:auto;
 	width:100%;
@@ -1099,7 +1134,7 @@ li {
 }
 
 #computer {
-	background-color:#0B0B3B;
+	background-color:#0A0A2A;
 	height:auto;
 	width:100%;
 	min-height:100%;
@@ -1121,6 +1156,14 @@ li {
 	margin-top:10;
 }
 
+.progress {
+	width:100%;
+	text-align:center;
+	color:white;
+	font-size:16;
+	margin-top:10;
+	margin-bottom:-10;
+}
 
 
 li {
