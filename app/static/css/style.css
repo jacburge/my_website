@@ -83,6 +83,7 @@ a {
 }
 
 .img-holder {
+	background-image: url(../img/me1.jpg);
 	border-radius: 50%;
 	width: 300px;
 	height: 300px;
@@ -480,6 +481,7 @@ hr {
 }
 
 .img-holder {
+	background-image: url(../img/me1.jpg);
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
