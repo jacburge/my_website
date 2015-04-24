@@ -289,8 +289,8 @@ hr {
 
 #aboutme {
 	margin-left:0;
-	width:400px;
-	height:425;
+	width:380px;
+	height:400;
 	top:100px;
 	left:50%;
 	color:#4a4a4a;
@@ -298,7 +298,7 @@ hr {
 	line-height:1.5;
 	border: 3px solid white;
 	border-radius:12px;
-	padding:10px;
+	padding:30px;
 	text-align:center;
 	z-index:6;
 	position:absolute;
