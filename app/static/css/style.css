@@ -316,7 +316,7 @@ hr {
 	border: 3px solid white;
 	border-radius: 12px;
 	padding: 10px;
-	text-align: center;
+	text-align: left;
 	z-index: 6;
 	position: relative;
 }
@@ -435,7 +435,14 @@ hr {
 	width:30%;
 	left:55%;
 	top:70%;
+}
 
+.icons {
+	width:30px;
+	width:30px;
+	float:left;
+	margin-left:15%;
+	margin-right:10px;
 }
 
 }
@@ -737,14 +744,16 @@ hr {
 	left:50%;
 	margin-left:-140;
 	width:260;
-	top: 100px;
+	height:300px;
+	top: 120px;
 	color: #4a4a4a;
-	font-size: 26px;
+	font-size: 20px;
 	line-height: 2;
 	border: 3px solid white;
 	border-radius: 12px;
 	padding: 10px;
-	text-align: center;
+	padding-top:60px;
+	text-align: left;
 	z-index: 6;
 	position: absolute;
 }
@@ -855,7 +864,6 @@ li {
 	margin-top:30;
 	margin-bottom:60;
 }
-
 }
 
 #meadow {
@@ -895,4 +903,11 @@ li {
 	height:100%;
 	z-index:19;
 	position:relative;
+}
+.icons {
+	width:30px;
+	width:30px;
+	float:left;
+	margin-left:15%;
+	margin-right:10px;
 }
