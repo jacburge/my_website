@@ -2,3 +2,14 @@
 /*===========================================*/
 
 
+.fun-text {
+	font-family: 'Clicker Script', 'Helvetica Neue', 'sans-serif';
+	position:absolute;
+	width:100%;
+	height:140;
+	top:40%;
+	text-align:center;
+	color:#4a4a4a;
+	font-size:64px;
+/*	margin-top:-30;*/
+}
