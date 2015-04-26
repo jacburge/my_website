@@ -907,14 +907,16 @@ li {
 }
 
 #menu-section {
-	background-color:#FBF3AE;
+	background-color:#CEF6F5;
+/*	background-color: #074F57;*/
 	min-height:630px;
 	height:100%;
 	position:relative;
 }
 
 #contact {
-	background-color:#CEF6F5;
+	background-color:#FBF3AE;
+/*	background-color: #BEFFC7;*/
 	min-height:660px;
 	height:100%;
 	z-index:19;

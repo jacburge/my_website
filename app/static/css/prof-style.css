@@ -94,7 +94,8 @@
 
 #education {
 	top:60;
-	background-color:#CEF6F5;
+/*	background-color:#CEF6F5;*/
+	background-color: #077187;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -106,7 +107,7 @@
 }
 
 #tech {
-	background-color:#CEF6F5;
+	background-color:#077187;
 	top:60;
 	height:auto;
 	width:100%;
@@ -119,7 +120,7 @@
 }
 
 #leadership {
-	background-color:#CEF6F5;
+	background-color:#077187;
 	top:60;
 	height:auto;
 	width:100%;
@@ -130,7 +131,7 @@
 }
 
 #computer {
-	background-color:#CEF6F5;
+	background-color:#077187;
 	height:auto;
 	width:100%;
 	min-height:100%;
@@ -143,7 +144,7 @@
 
 .heading {
 	font-size:24;
-	color:#4a4a4a;
+	color:white;
 	width:90%;
 	text-align:center;
 	border-bottom:1px solid white;
