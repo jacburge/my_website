@@ -221,13 +221,14 @@ a {
 	width:100%;
 	margin-right:auto;
 	margin-left:auto;
-	height:32px;
+	height:64px;
+	padding:32px;
 	text-align: center;
 	color:#4a4a4a;
 	font-size:18px;
 	z-index:100;
 	position:absolute;
-	bottom:20%;
+	bottom:2%;
 }
 
 hr {

@@ -94,8 +94,25 @@
 	margin-right:10%;
 	margin-top:20;
 }
-
 .music-boxes li {
 	margin-left:-20;
 	font-size:20;
+}
+
+#footer-c {
+	position:relative;
+	bottom:-1%;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	height:64px;
+	padding:32px;
+	text-align: center;
+	color:#4a4a4a;
+	font-size:18px;
+	z-index:100;
+}
+
+hr {
+	background:#4a4a4a !important;
 }
